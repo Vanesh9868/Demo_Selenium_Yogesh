@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-04T02:50:13 IST" name="Default suite" finished-at="2023-02-04T02:50:56 IST" duration-ms="42610">
+    <groups>
+    </groups>
+    <test started-at="2023-02-04T02:50:13 IST" name="Default test" finished-at="2023-02-04T02:50:56 IST" duration-ms="42610">
+      <class name="com.test.signUpTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.signUpTest@15c43bd9]" started-at="2023-02-04T02:50:14 IST" name="BrowserSetup" finished-at="2023-02-04T02:50:31 IST" duration-ms="17054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.signUpTest@15c43bd9]" started-at="2023-02-04T02:50:31 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-02-04T02:50:56 IST" duration-ms="25516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFySuccessFullUserLogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.signUpTest@15c43bd9]" started-at="2023-02-04T02:50:56 IST" name="TearDown" finished-at="2023-02-04T02:50:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.test.signUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
