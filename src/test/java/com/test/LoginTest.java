@@ -1,11 +1,12 @@
 package com.test;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import com.page.HomePage;
 import com.page.LoginPage;
-import com.utility.BaseClass;
+import com.utility.BaseTest;
 
-public class loginTest extends BaseClass {
+public class LoginTest extends BaseTest {
 
 	private LoginPage loginPage;
 	private HomePage homePage;
@@ -14,11 +15,14 @@ public class loginTest extends BaseClass {
 	public void VeriFySuccessFullUserLogin() throws InterruptedException {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
-		loginPage.enterEmail("9767068593");
-		loginPage.enterPassword("Khiladi@9868");
-		loginPage.clickOnLoginButton();
-		homePage.VerifyHomeMenuDisplay();
-		Thread.sleep(10000);
-
+		loginPage.loginWithMobileNumber("9767068593", "Khiladi@9868");
+		homePage.VerifyHomeTabDisplay();
+		Thread.sleep(5000);
 	}
+	
+	@AfterMethod
+	public void TearDown() {
+		driver.quit();
+	}
+
 }

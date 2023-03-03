@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.test.LoginTest">
+      <class name="com.test.FindFriendsTest">
         <methods>
-          <include name="VerifySuccessfullyUserAbleToLogin"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="VerifyErrorMessegeIsGenerate"/>
+          <include name="VeriFySuccessFullUserLogin"/>
+          <include name="BrowserSetup"/>
+          <include name="backToHomepage"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- com.test.LoginTest -->
+      </class> <!-- com.test.FindFriendsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
