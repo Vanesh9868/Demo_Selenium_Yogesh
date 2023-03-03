@@ -57,6 +57,12 @@ public class SignUpPage extends BasePage {
 	@FindBy(xpath = "//button[@name='websubmit']")
 	private WebElement SIGNUP_BUTTON;
 
+	@FindBy(xpath = "//input[@id='recovery_code_entry']")
+	private WebElement ENTER_OTP;
+
+	@FindBy(xpath = "//button[@name='reset_action']")
+	private WebElement CONTINUE_BTN;
+
 	public void enterFirstName(String firstName) {
 		log.info("trying to enter first name");
 		TestUtils.waitForVisibilityOfElement(driver, FIRST_NAME).sendKeys(firstName);
@@ -123,10 +129,14 @@ public class SignUpPage extends BasePage {
 		TestUtils.waitForVisibilityOfElement(driver, SIGNUP_BUTTON).click();
 	}
 
-	@Override
-	public BasePage waitForPage() {
-		// TODO Auto-generated method stub
-		return null;
+	public void enterOtp(String otp) {
+		log.info("trying to enter otp");
+		TestUtils.waitForVisibilityOfElement(driver, ENTER_OTP).sendKeys(otp);
+	}
+
+	public void clickOnContinueButton() {
+		log.info("trying to click on continue button");
+		TestUtils.waitForVisibilityOfElement(driver, CONTINUE_BTN).click();
 	}
 
 }

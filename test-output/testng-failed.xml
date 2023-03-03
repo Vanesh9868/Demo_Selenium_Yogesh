@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.signUpTest">
+      <class name="com.test.HomeTest">
         <methods>
           <include name="BrowserSetup"/>
-          <include name="TearDown"/>
           <include name="VeriFySuccessFullUserLogin"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- com.test.signUpTest -->
+      </class> <!-- com.test.HomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

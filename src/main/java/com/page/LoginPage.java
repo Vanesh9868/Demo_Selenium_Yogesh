@@ -6,13 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import com.utility.TestUtils;
 
 public class LoginPage extends BasePage {
 
 	private WebDriver driver;
 	private Logger log = LogManager.getLogger(LoginPage.class);
+	private LoginPage loginPage;
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
@@ -44,18 +44,20 @@ public class LoginPage extends BasePage {
 
 	public void clickOnLoginButton() {
 		log.info("trying to click on login button");
-		TestUtils.waitForVisibilityOfElement(driver, LOGIN_BUTTON).click();
+//		TestUtils.waitForVisibilityOfElement(driver, LOGIN_BUTTON).click();
+		TestUtils.waitForElementToBeClickable(driver, LOGIN_BUTTON).click();
 	}
 
 	public void clickOnCreatNewAccountButton() {
-		log.info("trying to click on login button");
+		log.info("trying to click on Create New Account Button");
 		TestUtils.waitForVisibilityOfElement(driver, CREATE_NEW_ACCOUNT_BUTTON).click();
 	}
 
-	@Override
-	public BasePage waitForPage() {
-		// TODO Auto-generated method stub
-		return null;
+	public void loginWithMobileNumber(String mobileNumber, String password) throws InterruptedException {
+		loginPage = new LoginPage(driver);
+		loginPage.enterEmail("9767068593");
+		loginPage.enterPassword("Khiladi@9868");
+		loginPage.clickOnLoginButton();
 	}
 
 }
