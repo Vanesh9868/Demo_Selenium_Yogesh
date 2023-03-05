@@ -8,7 +8,7 @@ import com.utility.BaseTest;
 
 public class HomeTest extends BaseTest {
 
-	@Test(priority = 1)
+	@Test()
 	public void VeriFySuccessFullUserLogin() throws InterruptedException {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
