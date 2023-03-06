@@ -1,8 +1,11 @@
 package com.test;
 
-public class demo {
+public class demo2 {
 
 	public static void main(String[] args) {
-		System.out.println("jenkins demo");
+
+
+		System.out.println("demo2");
 	}
+
 }
