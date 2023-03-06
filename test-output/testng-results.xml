@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-03T23:32:22 IST" name="Suite" finished-at="2023-03-03T23:33:07 IST" duration-ms="44863">
+  <suite started-at="2023-03-07T00:57:44 IST" name="Default suite" finished-at="2023-03-07T00:57:57 IST" duration-ms="12446">
     <groups>
     </groups>
-    <test started-at="2023-03-03T23:32:22 IST" name="Test" finished-at="2023-03-03T23:33:07 IST" duration-ms="44863">
+    <test started-at="2023-03-07T00:57:44 IST" name="Default test" finished-at="2023-03-07T00:57:57 IST" duration-ms="12446">
       <class name="com.test.FindFriendsTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.FindFriendsTest@52b1beb6]" started-at="2023-03-03T23:32:48 IST" name="BrowserSetup" finished-at="2023-03-03T23:32:49 IST" duration-ms="1842" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.FindFriendsTest@436813f3]" started-at="2023-03-07T00:57:44 IST" name="BrowserSetup" finished-at="2023-03-07T00:57:49 IST" duration-ms="4681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.FindFriendsTest@52b1beb6]" started-at="2023-03-03T23:32:49 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-03T23:32:58 IST" duration-ms="8522" status="PASS">
+        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.FindFriendsTest@436813f3]" started-at="2023-03-07T00:57:49 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-07T00:57:56 IST" duration-ms="7333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VeriFySuccessFullUserLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.FindFriendsTest@52b1beb6]" started-at="2023-03-03T23:32:58 IST" name="TearDown" finished-at="2023-03-03T23:32:58 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.FindFriendsTest@436813f3]" started-at="2023-03-07T00:57:56 IST" name="TearDown" finished-at="2023-03-07T00:57:57 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.test.FindFriendsTest -->
-      <class name="com.test.HomeTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.HomeTest@273e7444]" started-at="2023-03-03T23:32:58 IST" name="BrowserSetup" finished-at="2023-03-03T23:33:00 IST" duration-ms="2324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="VeriFySuccessFullUserLogin()[pri:1, instance:com.test.HomeTest@273e7444]" started-at="2023-03-03T23:33:00 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-03T23:33:07 IST" duration-ms="6445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VeriFySuccessFullUserLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.HomeTest@273e7444]" started-at="2023-03-03T23:33:07 IST" name="TearDown" finished-at="2023-03-03T23:33:07 IST" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.test.HomeTest -->
-      <class name="com.test.SignUpTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.SignUpTest@4efac082]" started-at="2023-03-03T23:32:22 IST" name="BrowserSetup" finished-at="2023-03-03T23:32:27 IST" duration-ms="4609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.SignUpTest@4efac082]" started-at="2023-03-03T23:32:27 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-03T23:32:33 IST" duration-ms="6211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VeriFySuccessFullUserLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.SignUpTest@4efac082]" started-at="2023-03-03T23:32:33 IST" name="TearDown" finished-at="2023-03-03T23:32:33 IST" duration-ms="197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.test.SignUpTest -->
-      <class name="com.test.LoginTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.LoginTest@53aac487]" started-at="2023-03-03T23:32:33 IST" name="BrowserSetup" finished-at="2023-03-03T23:32:36 IST" duration-ms="2673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.LoginTest@53aac487]" started-at="2023-03-03T23:32:36 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-03T23:32:47 IST" duration-ms="11450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VeriFySuccessFullUserLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.LoginTest@53aac487]" started-at="2023-03-03T23:32:47 IST" name="TearDown" finished-at="2023-03-03T23:32:48 IST" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.test.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
