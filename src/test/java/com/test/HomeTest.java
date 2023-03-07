@@ -1,5 +1,10 @@
 package com.test;
 
+/**
+ * @author Yogesh Shinde
+ * 
+ */
+
 import org.testng.annotations.Test;
 import com.page.FriendsPage;
 import com.page.HomePage;
