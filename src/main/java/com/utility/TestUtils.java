@@ -9,13 +9,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class TestUtils {
 
 	public static WebElement waitForVisibilityOfElement(WebDriver driver, WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(element));
 		return element;
 	}
 
 	public static WebElement waitForElementToBeClickable(WebDriver driver, WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return element;
 	}
