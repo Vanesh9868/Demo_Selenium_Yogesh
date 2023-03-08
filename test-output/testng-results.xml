@@ -20,6 +20,7 @@
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.test.FindFriendsTest -->
+
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
