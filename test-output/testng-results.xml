@@ -2,25 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T15:20:21 IST" name="Default suite" finished-at="2023-03-08T15:20:37 IST" duration-ms="15867">
+  <suite started-at="2023-03-09T14:49:52 IST" name="Default suite" finished-at="2023-03-09T14:54:08 IST" duration-ms="255968">
     <groups>
     </groups>
-    <test started-at="2023-03-08T15:20:21 IST" name="Default test" finished-at="2023-03-08T15:20:37 IST" duration-ms="15867">
-      <class name="com.test.FindFriendsTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.FindFriendsTest@48f278eb]" started-at="2023-03-08T15:20:21 IST" name="BrowserSetup" finished-at="2023-03-08T15:20:24 IST" duration-ms="3666" status="PASS">
+    <test started-at="2023-03-09T14:49:52 IST" name="Default test" finished-at="2023-03-09T14:54:08 IST" duration-ms="255968">
+      <class name="com.test.LoginTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.LoginTest@7714e963]" started-at="2023-03-09T14:49:52 IST" name="BrowserSetup" finished-at="2023-03-09T14:53:37 IST" duration-ms="225598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.FindFriendsTest@48f278eb]" started-at="2023-03-08T15:20:24 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-08T15:20:36 IST" duration-ms="11780" status="PASS">
+        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.LoginTest@7714e963]" started-at="2023-03-09T14:53:37 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-09T14:54:07 IST" duration-ms="29921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VeriFySuccessFullUserLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.FindFriendsTest@48f278eb]" started-at="2023-03-08T15:20:36 IST" name="TearDown" finished-at="2023-03-08T15:20:37 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.LoginTest@7714e963]" started-at="2023-03-09T14:54:07 IST" name="TearDown" finished-at="2023-03-09T14:54:08 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.test.FindFriendsTest -->
-
+      </class> <!-- com.test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

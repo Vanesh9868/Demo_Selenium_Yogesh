@@ -23,6 +23,7 @@ public class LoginTest extends BaseTest {
 	@AfterMethod
 	public void TearDown() {
 		driver.quit();
+		
 	}
 
 }
