@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-09T14:49:52 IST" name="Default suite" finished-at="2023-03-09T14:54:08 IST" duration-ms="255968">
+  <suite started-at="2023-03-11T20:03:36 IST" name="Default suite" finished-at="2023-03-11T20:04:02 IST" duration-ms="26153">
     <groups>
     </groups>
-    <test started-at="2023-03-09T14:49:52 IST" name="Default test" finished-at="2023-03-09T14:54:08 IST" duration-ms="255968">
-      <class name="com.test.LoginTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.LoginTest@7714e963]" started-at="2023-03-09T14:49:52 IST" name="BrowserSetup" finished-at="2023-03-09T14:53:37 IST" duration-ms="225598" status="PASS">
+    <test started-at="2023-03-11T20:03:36 IST" name="Default test" finished-at="2023-03-11T20:04:02 IST" duration-ms="26153">
+      <class name="com.test.HomeTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.test.HomeTest@20deea7f]" started-at="2023-03-11T20:03:36 IST" name="BrowserSetup" finished-at="2023-03-11T20:03:52 IST" duration-ms="15791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.LoginTest@7714e963]" started-at="2023-03-09T14:53:37 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-09T14:54:07 IST" duration-ms="29921" status="PASS">
+        <test-method signature="VeriFySuccessFullUserLogin()[pri:0, instance:com.test.HomeTest@20deea7f]" started-at="2023-03-11T20:03:52 IST" name="VeriFySuccessFullUserLogin" finished-at="2023-03-11T20:04:02 IST" duration-ms="9851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VeriFySuccessFullUserLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.LoginTest@7714e963]" started-at="2023-03-09T14:54:07 IST" name="TearDown" finished-at="2023-03-09T14:54:08 IST" duration-ms="420" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.test.HomeTest@20deea7f]" started-at="2023-03-11T20:04:02 IST" name="TearDown" finished-at="2023-03-11T20:04:02 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.test.LoginTest -->
+      </class> <!-- com.test.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
