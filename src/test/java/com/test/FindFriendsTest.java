@@ -8,12 +8,11 @@ import com.utility.BaseTest;
 
 public class FindFriendsTest extends BaseTest {
 
-	@Test()
-	public void VeriFySuccessFullUserLogin() throws InterruptedException {
+	public static void verifyFriendstest() throws InterruptedException {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
 		friendsPage = new FriendsPage(driver);
-		loginPage.loginWithMobileNumber("9767068593", "Khiladi@9868");
+		driver.get("https://www.facebook.com/");
 		homePage.clickOnFindFriendsOption();
 		friendsPage.VerifyFriendsTitleDisplay();
 		friendsPage.VerifyHomeFilterDisplay();

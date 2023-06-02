@@ -31,10 +31,7 @@ public class SignUpTest extends BaseTest {
 		signupPage.enterOtp("12345");
 		signupPage.clickOnContinueButton();
 	}
-	
-	@AfterMethod
-	public void TearDown() {
-		driver.quit();
-	}
+
+
 	
 }

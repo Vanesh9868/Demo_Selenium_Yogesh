@@ -3,14 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.test.FindFriendsTest">
+      <class name="com.test.HomeTest">
         <methods>
-          <include name="VeriFySuccessFullUserLogin"/>
           <include name="BrowserSetup"/>
-          <include name="backToHomepage"/>
+          <include name="VeriFySuccessFullUserLogin"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- com.test.FindFriendsTest -->
+      </class> <!-- com.test.HomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

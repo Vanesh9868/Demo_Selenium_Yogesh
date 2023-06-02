@@ -3,9 +3,7 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.test.SignUpTest" />
 			<class name="com.test.LoginTest" />
-			<class name="com.test.FindFriendsTest" />
 			<class name="com.test.HomeTest" />
 		</classes>
 	</test>

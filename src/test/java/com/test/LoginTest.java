@@ -8,22 +8,17 @@ import com.utility.BaseTest;
 
 public class LoginTest extends BaseTest {
 
-	private LoginPage loginPage;
-	private HomePage homePage;
+	private static LoginPage loginPage;
+	private static HomePage homePage;
 
-	@Test
-	public void VeriFySuccessFullUserLogin() throws InterruptedException {
+	public static void VeriFySuccessFullUserLogin() throws InterruptedException {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
+		driver.get("https://www.facebook.com/");
 		loginPage.loginWithMobileNumber("9767068593", "Khiladi@9868");
 		homePage.VerifyHomeTabDisplay();
-		Thread.sleep(5000);
 	}
 	
-	@AfterMethod
-	public void TearDown() {
-		driver.quit();
-		
-	}
+
 
 }
