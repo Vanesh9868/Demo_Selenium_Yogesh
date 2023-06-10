@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 03 00:12:42 IST 2023</td>
+<td>Started on:</td><td>Sat Jun 10 22:45:37 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14976 ms)</td>
+<tr><td>Total time:</td><td>27 seconds (27526 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,33 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.HomeTest.VeriFySuccessFullUserLogin()'><b>VeriFySuccessFullUserLogin</b><br>Test class: com.test.HomeTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandle()&quot; because &quot;this.driver&quot; is null
-	at com.test.HomeTest.VeriFySuccessFullUserLogin(HomeTest.java:25)
+<td title='com.test.TestRunner.FindFriendsTest()'><b>FindFriendsTest</b><br>Test class: com.test.TestRunner</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (38bfecd1f17be9e5d73b6b48729a9dd8)] -&gt; xpath: //div[@class=&apos;xu06os2 x1ok221b&apos;]//span[text()=&apos;Birthdays&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-5RRVIRMR&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38bfecd1f17be9e5d73b6b48729a9dd8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.utility.TestUtils.waitForVisibilityOfElement(TestUtils.java:20)
+	at com.page.FriendsPage.VerifyBirthdaysFilterDisplay(FriendsPage.java:80)
+	at com.test.FindFriendsTest.verifyFriendstest(FindFriendsTest.java:22)
+	at com.test.TestRunner.FindFriendsTest(TestRunner.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace500660587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace500660587'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandle()&quot; because &quot;this.driver&quot; is null
-	at com.test.HomeTest.VeriFySuccessFullUserLogin(HomeTest.java:25)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace824177287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace824177287'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (38bfecd1f17be9e5d73b6b48729a9dd8)] -&gt; xpath: //div[@class=&apos;xu06os2 x1ok221b&apos;]//span[text()=&apos;Birthdays&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-5RRVIRMR&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38bfecd1f17be9e5d73b6b48729a9dd8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.utility.TestUtils.waitForVisibilityOfElement(TestUtils.java:20)
+	at com.page.FriendsPage.VerifyBirthdaysFilterDisplay(FriendsPage.java:80)
+	at com.test.FindFriendsTest.verifyFriendstest(FindFriendsTest.java:22)
+	at com.test.TestRunner.FindFriendsTest(TestRunner.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,8 +131,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.test.HomeTest@393671df</td></tr>
+<td>15</td>
+<td>com.test.TestRunner@6caf0677</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -122,10 +142,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.LoginTest.VeriFySuccessFullUserLogin()'><b>VeriFySuccessFullUserLogin</b><br>Test class: com.test.LoginTest</td>
+<td title='com.test.TestRunner.verifyNavebar()'><b>verifyNavebar</b><br>Test class: com.test.TestRunner</td>
 <td></td>
-<td>11</td>
-<td>com.test.LoginTest@1ea9f6af</td></tr>
+<td>3</td>
+<td>com.test.TestRunner@6caf0677</td></tr>
+<tr>
+<td title='com.test.TestRunner.login()'><b>login</b><br>Test class: com.test.TestRunner</td>
+<td></td>
+<td>7</td>
+<td>com.test.TestRunner@6caf0677</td></tr>
 </table><p>
 </body>
 </html>

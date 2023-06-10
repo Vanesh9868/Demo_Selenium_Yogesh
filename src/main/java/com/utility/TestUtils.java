@@ -9,7 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.aventstack.extentreports.ExtentTest;
+
 public class TestUtils {
+	
+	public static ExtentTest test;
 
 	public static WebElement waitForVisibilityOfElement(WebDriver driver, WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
